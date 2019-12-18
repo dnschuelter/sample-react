@@ -1,4 +1,5 @@
 .App {
+  max-width: 800px;
   text-align: center;
 }
 
@@ -35,4 +36,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.row{
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
 }
